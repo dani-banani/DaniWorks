@@ -12,3 +12,8 @@ execute store result entity @s Pos[2] double 0.0001 run scoreboard players get $
 
 execute if data storage dani:input reader.attack run function dani:pack/player/input/click/attack_check
 execute if data storage dani:input reader.interaction run function dani:pack/player/input/click/interaction_check
+
+execute as @p if entity @s[tag=dani.input.click.reader.mainhand] unless items entity @s[tag=!dani.input.click.reader] weapon.mainhand *[minecraft:custom_data~{dani:clickApiStart}] run function dani:api/input/click/stop
+execute as @p if entity @s[tag=dani.input.click.reader.offhand] unless items entity @s[tag=!dani.input.click.reader] weapon.offhand *[minecraft:custom_data~{dani:clickApiStart}] run function dani:api/input/click/stop
+
+
