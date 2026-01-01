@@ -15,5 +15,3 @@ execute if data storage dani:input reader.interaction run function dani:pack/pla
 
 execute as @p if entity @s[tag=dani.input.click.reader.mainhand] unless items entity @s[tag=!dani.input.click.reader] weapon.mainhand *[minecraft:custom_data~{dani:clickApiStart}] run function dani:api/input/click/stop
 execute as @p if entity @s[tag=dani.input.click.reader.offhand] unless items entity @s[tag=!dani.input.click.reader] weapon.offhand *[minecraft:custom_data~{dani:clickApiStart}] run function dani:api/input/click/stop
-
-
