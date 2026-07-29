@@ -13,6 +13,8 @@ scoreboard objectives add dani.backward.timestamp dummy
 scoreboard objectives add dani.left.timestamp dummy
 scoreboard objectives add dani.right.timestamp dummy
 
+scoreboard objectives add dani.player.right_clicked_WFOAS minecraft.used:minecraft.warped_fungus_on_a_stick
+
 scoreboard objectives add dani.second.sneak.timer dummy
 scoreboard objectives add dani.second.jump.timer dummy
 scoreboard objectives add dani.second.foward.timer dummy
@@ -40,15 +42,19 @@ scoreboard objectives add dani.player.pos.z dummy
 scoreboard objectives add dani.player.motion.x dummy
 scoreboard objectives add dani.player.motion.y dummy
 scoreboard objectives add dani.player.motion.z dummy
+scoreboard objectives add dani.player.x_rotation dummy
+scoreboard objectives add dani.player.y_rotation dummy
 
 scoreboard objectives add dani.Global dummy
-scoreboard players set $const.31 dani.Global 31
+scoreboard players set $const.-1 dani.Global -1
+
 scoreboard players set $const.2 dani.Global 2
 scoreboard players set $const.5 dani.Global 5
 scoreboard players set $const.7 dani.Global 7
 scoreboard players set $const.10 dani.Global 10
 
 scoreboard players set $const.20 dani.Global 20
+scoreboard players set $const.31 dani.Global 31
 scoreboard players set $const.40 dani.Global 40
 scoreboard players set $const.50 dani.Global 50
 scoreboard players set $const.60 dani.Global 60

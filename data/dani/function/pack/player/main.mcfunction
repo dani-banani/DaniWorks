@@ -1,4 +1,5 @@
-function dani:rhythm/player/main
+# function dani:rhythm/player/main
+data modify storage dani:player Now set from entity @s {}
 
 tag @s remove dani.input.jump.pressed
 tag @s remove dani.input.sneak.pressed
@@ -17,13 +18,19 @@ tag @s remove dani.input.double.backward.pressed
 tag @s remove dani.input.double.left.pressed
 tag @s remove dani.input.double.right.pressed
 
+tag @s[scores={dani.player.right_clicked_WFOAS=1..}] add dani.input.rightclick.pressed
+
+
 scoreboard players remove @s[scores={dani.second.jump.timer=1..}] dani.second.jump.timer 1
 scoreboard players remove @s[scores={dani.second.sneak.timer=1..}] dani.second.sneak.timer 1
 scoreboard players remove @s[scores={dani.second.foward.timer=1..}] dani.second.foward.timer 1
 scoreboard players remove @s[scores={dani.second.backward.timer=1..}] dani.second.backward.timer 1
 scoreboard players remove @s[scores={dani.second.left.timer=1..}] dani.second.left.timer 1
 scoreboard players remove @s[scores={dani.second.right.timer=1..}] dani.second.right.timer 1
+scoreboard players remove @s[scores={dani.player.right_clicked_WFOAS=1..}] dani.player.right_clicked_WFOAS 1
 
+execute store result score @s dani.player.x_rotation run data get storage dani:player Now.Rotation[0]
+execute store result score @s dani.player.y_rotation run data get storage dani:player Now.Rotation[1]
 
 
 execute if predicate dani:player/input/sneak run function dani:pack/player/input/sneak/now

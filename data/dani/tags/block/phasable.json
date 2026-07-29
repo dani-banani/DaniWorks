@@ -74,6 +74,7 @@
         "#coral_plants",
         "iron_bars",
         "#walls",
-        "#wall_signs"
+        "#wall_signs",
+        "leaf_litter"
     ]
 }

@@ -4,3 +4,4 @@
 # entityPos : @p
 $damage @s $(d) $(type) by $(player) from $(entityPos)
 data remove storage dani:damage build
+# $say $(d) $(type) by $(player) from $(entityPos)
