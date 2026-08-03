@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "sambal:load",
         "dani:pack/reset"
     ]
 }

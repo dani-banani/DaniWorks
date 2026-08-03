@@ -1,6 +1,12 @@
 {
-	"pack": {
-		"pack_format": 81,
-		"description": "dani's datapack credit to player motion datapack"
-	}
+  "pack": {
+    "description": {
+      "translate": "Dani's Base Datapack Library For Datapacking Datapacks"
+    },
+    "max_format": 107,
+    "min_format": [
+      107,
+      1
+    ]
+  }
 }

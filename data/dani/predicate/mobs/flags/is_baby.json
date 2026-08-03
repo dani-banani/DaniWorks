@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "minecraft:flags": {
-      "is_sneaking": true
+      "is_baby": true
     }
   }
 }

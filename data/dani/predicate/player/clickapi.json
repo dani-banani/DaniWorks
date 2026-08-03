@@ -2,12 +2,10 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "equipment": {
-      "mainhand": {
+    "minecraft:slots": {
+      "weapon.*": {
         "components": {
-          "minecraft:custom_data": {
-            "dani": "clickApiStart"
-          }
+          "minecraft:custom_data": "{dani:clickApiStart}"
         }
       }
     }

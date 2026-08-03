@@ -1,0 +1,10 @@
+{
+    "values": [
+        "structure_void",
+        "water",
+        "lava",
+        "cave_air",
+        "air",
+        "void_air"
+    ]
+}

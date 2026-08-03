@@ -1,4 +1,3 @@
-# function dani:rhythm/player/main
 data modify storage dani:player Now set from entity @s {}
 
 tag @s remove dani.input.jump.pressed

@@ -2,10 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type_specific": {
-      "type": "minecraft:player"
-    },
-    "flags": {
+    "minecraft:flags": {
       "is_swimming": true
     }
   }
