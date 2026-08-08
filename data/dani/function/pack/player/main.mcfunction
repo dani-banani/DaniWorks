@@ -47,7 +47,7 @@ execute if entity @s[tag=dani.input.backward.pressed] run function dani:pack/pla
 execute if entity @s[tag=dani.input.left.pressed] run function dani:pack/player/input/left/start
 execute if entity @s[tag=dani.input.right.pressed] run function dani:pack/player/input/right/start
 
-## 
-execute if items entity @s[tag=!dani.input.click.reader.mainhand] weapon.mainhand *[minecraft:custom_data~{dani:clickApiStart}] unless items entity @s weapon.offhand *[minecraft:custom_data~{hand:off}] run function dani:pack/player/input/click/mainhand/start
-execute if items entity @s[tag=!dani.input.click.reader.offhand] weapon.offhand *[minecraft:custom_data~{dani:clickApiStart}] unless items entity @s weapon.offhand *[minecraft:custom_data~{hand:main}] run function dani:pack/player/input/click/offhand/start
-## custom
+# ## 
+# execute if items entity @s[tag=!dani.input.click.reader.mainhand] weapon.mainhand *[minecraft:custom_data~{dani:clickApiStart}] unless items entity @s weapon.offhand *[minecraft:custom_data~{hand:off}] run function dani:pack/player/input/click/mainhand/start
+# execute if items entity @s[tag=!dani.input.click.reader.offhand] weapon.offhand *[minecraft:custom_data~{dani:clickApiStart}] unless items entity @s weapon.offhand *[minecraft:custom_data~{hand:main}] run function dani:pack/player/input/click/offhand/start
+# ## custom

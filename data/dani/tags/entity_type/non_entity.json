@@ -17,6 +17,8 @@
     "interaction",
     "item",
     "item_frame",
-    "glow_item_frame"
+    "glow_item_frame",
+    "experience_bottle",
+    "experience_orb"
   ]
 }
