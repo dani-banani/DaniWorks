@@ -1,5 +1,6 @@
 {
     "values": [
+        "#taglib:overworld_plants",
         "structure_void",
         "#saplings",
         "cobweb",
